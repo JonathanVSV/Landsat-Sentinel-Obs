@@ -1,6 +1,6 @@
 # Landsat-Sentinel-Obs
 
- GEE Javascript API scripts for obtaining the number of cloudless observations using Landsat 4, 5, 7, 8 or Sentinel-2 in BR by ecoregion. Duplicated observations from overlapping image tiles are counted only once using both collections. 
+ GEE Javascript API scripts for obtaining the number of cloudless observations using Landsat 4, 5, 7, 8 (Landsat-Obs) or Sentinel-2 (Sentinel2-Obs) in BR. Duplicated observations from overlapping image tiles are counted only once using both collections. The two scripts exports annual and monthly images (by year), as well as a table containing the metadata of all images.
 
  ![Brazil monthly](/Img/BR_LandsatSentinel_monthly.jpg?raw=true "Monthly observations with both collections")
 
