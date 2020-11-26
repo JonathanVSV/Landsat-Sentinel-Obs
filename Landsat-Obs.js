@@ -61,7 +61,8 @@ The script can export two types of results:
   //Valid dates are 2015 - 2019 (no images in 2014)
   var prueba = BR, //shapefile of BR
       area = geometry, // geometry polygon that englobes all BR 
-      resolution = 6000, //Pixel size in m to export results, pixel_qa = 30 m res
+      resolution = 600, //Pixel size in m to export results, pixel_qa = 30 m res
+      //Higher values tend to reduce the size of the exported image
       
       //Month counts
       start = '1984-01-01', //Start period for month counts 

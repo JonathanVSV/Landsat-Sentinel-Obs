@@ -60,7 +60,8 @@ The script can export two types of results:
   //Set several variables
   var prueba = BR, //Shapefile of BR
       area = geometry, // geometry2 polygon that englobes BR shape
-      resolution = 6000, //Pixel size in m to export results, QA60 = 60 m res
+      resolution = 600, //Pixel size in m to export results, QA60 = 60 m res
+      //Higher values tend to reduce the size of the exported image
       
       //Month counts
       start = '2015-07-01', //Start period for month counts 2015-07-01
